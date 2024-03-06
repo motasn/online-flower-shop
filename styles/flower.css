@@ -1,0 +1,127 @@
+* {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+    border: 0px;
+}
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.contener,
+.Featured-section {
+    width: 70%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+    gap: 90px;
+}
+
+.banner-text {
+    width: 650px;
+}
+
+.banner-text h1 {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    width: 708px;
+    margin-bottom: 40px;
+    padding-top: 180px;
+}
+
+.banner-text p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+    margin-bottom: 40px;
+}
+
+.banner-text button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    width: auto 120px;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+
+button:hover {
+    background: rgb(202, 97, 167);
+
+}
+
+.banner-img {
+    width: 635px;
+    padding-top: 50px;
+    background-image: bottom right, top left;
+}
+
+
+.Featured-titel {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 150px;
+    padding-bottom: 24px;
+}
+
+.Featured-p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.Featured-contener {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.Featured-img p {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+  
+}
+
+.image-bg-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+}
+
+.image-bg-3 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.image-bg-2 {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
