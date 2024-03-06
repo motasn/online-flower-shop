@@ -4,7 +4,7 @@
     border: 0px;
 }
 
-header {
+header ,.deal-contaner{
     background: rgba(229, 84, 115, 0.10);
 }
 
@@ -42,7 +42,7 @@ header {
     margin-bottom: 40px;
 }
 
-.banner-text button {
+.banner-text button , .deal-contaner button{
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -55,6 +55,7 @@ header {
     width: auto 120px;
     cursor: pointer;
     transition: all 1s;
+
 
 }
 
@@ -70,7 +71,7 @@ button:hover {
 }
 
 
-.Featured-titel {
+.Featured-titel ,.deal-contaner h2 ,.Instagram-contaner h2 {
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -79,18 +80,21 @@ button:hover {
     padding-bottom: 24px;
 }
 
-.Featured-p {
+.Featured-p ,.deal-contaner p ,.Instagram-contaner p{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    padding-bottom: 40px;
 
 }
 
 .Featured-contener {
     display: flex;
-    gap: 30px;
+    gap: 15px;
     align-items: center;
+    justify-content: space-around;
+
 }
 
 .Featured-img p {
@@ -100,7 +104,9 @@ button:hover {
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
-  
+
+
+
 }
 
 .image-bg-1 {
@@ -124,4 +130,41 @@ button:hover {
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+}
+
+.Featured-img {
+    width: 310px;
+    height: 428px;
+
+}
+
+#servers-contaner {
+    border-radius: 8px;
+    background: red;
+    display: flex;
+  
+  
+}
+
+#serves{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05); 
+    margin-top:250px ;
+    margin-bottom:200px ;
+
+}
+#serves .serves-contaner  {
+display: flex;
+justify-content:space-between;
+}
+
+.serves-option{
+    padding:20px ;
+
+}
+ 
+
+.deal-contaner{
+    display: flex;
+    justify-content: space-around;
 }
