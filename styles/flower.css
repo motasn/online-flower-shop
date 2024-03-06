@@ -80,7 +80,7 @@ button:hover {
     padding-bottom: 24px;
 }
 
-.Featured-p ,.deal-contaner p ,.Instagram-contaner p{
+.Featured-p ,.deal-contaner p ,{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -167,4 +167,29 @@ justify-content:space-between;
 .deal-contaner{
     display: flex;
     justify-content: space-around;
+}
+
+
+.Instagram-contaner-p{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+ 
+.Instagram-img{
+    display: flex;
+    justify-content: center;
+}
+
+.img-gap{
+    margin: 20px ;
+
+}
+
+.subcrib-contaner{
+    background-image: url(../image/Rectangle\ 9.png);
 }
